@@ -16,7 +16,7 @@ export default ({ data }) => {
             border-bottom: 1px solid;
           `}
         >
-          Amazing things are comming
+          Hello Travis! 
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
