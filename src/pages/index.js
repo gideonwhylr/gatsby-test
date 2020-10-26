@@ -16,7 +16,7 @@ export default ({ data }) => {
             border-bottom: 1px solid;
           `}
         >
-          Hello Travis! 
+          Hello Garrett! 
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
